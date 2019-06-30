@@ -1,0 +1,5 @@
+DEBUG = True
+HOST = 'xxxxxxxxxxxxxxxx'
+GOOGLE_CLIENT_ID = 'xxx'
+GOOGLE_CLIENT_SECRET = 'xxx'
+REDIRECT_URI = '/oauth2callback'

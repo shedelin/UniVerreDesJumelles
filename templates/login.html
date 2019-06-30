@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="uk-card uk-card-default uk-width-1-2@m section-form">
+  <h1 class="uk-heading-primary">Please sign in</h1>
+  <form method=POST action="{{ url_for('login') }}">
+    <div class="uk-margin">
+      <div class="uk-inline">
+        <span class="uk-form-icon" uk-icon="icon: user"></span>
+        <input class="uk-input" type="text" name="email" placeholder="Email">
+      </div>
+    </div>
+
+    <div class="uk-margin">
+      <div class="uk-inline">
+        <span class="uk-form-icon uk-form-icon" uk-icon="icon: lock"></span>
+        <input type="password" class="form-control uk-input" name="pass" placeholder="Password">
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Log In</button>
+  </form>
+  <div>
+    Don't have an account? <a href="{{ url_for('register') }}">Sign up here</a>.
+  </div>
+
+</div>
+{% endblock %}

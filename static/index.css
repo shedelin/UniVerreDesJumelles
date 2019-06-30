@@ -1,0 +1,107 @@
+.section-header {
+  /*min-height: 170px;*/
+  background: #1b2edd;
+  background-image: linear-gradient(to right top,  #e5e5e5, #ffffff);
+  padding: 15px 30px;
+  /*color: #fff;*/
+  position: relative;
+  /*padding-bottom: 159px;*/
+}
+
+/*.section-header:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: url(images/wave-3.png);
+    background-size: cover;
+}*/
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.uk-heading-primary {
+  font-size: 30px;
+}
+
+.section-user a,
+.section-login {
+  /*color: #fff;*/
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.section-user img {
+  width: 15px;
+}
+
+.section-user li, .section-login li {
+  display: inline-block;;
+  margin: 0 5px;
+}
+
+.btn {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 230px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  /*background-image: linear-gradient(to right top, #ff006f, #ff4451, #ff6d35, #fd921c, #ebb212);*/
+  background-image: linear-gradient(to right top,  #e5e5e5, #ffffff);
+  border-radius: 21px;
+  margin-bottom: 13px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.094em;
+}
+
+.section-form {
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.section-apps {
+  margin: auto;
+  margin-top: 50px;
+  min-height: 400px;
+}
+
+.section-login-first {
+  max-width: 1000px;
+  margin-top: 30px;
+}
+
+.section-footer {
+  /*min-height: 400px;*/
+  /*background-image: linear-gradient(to right top, #ff006f, #ff4451, #ff6d35, #fd921c, #ebb212);
+  background-image: linear-gradient(to right top, #d16ba5, #ce7db6, #cb8dc5, #c99dd1, #c8acda, #c5b3df, #c2bae3, #c1c1e6, #bac2e8, #b2c4ea, #a9c5eb, #a1c7eb);*/
+  background-image: linear-gradient(to right top,  #e5e5e5, #ffffff);
+  padding: 15px 30px;
+  color: #fff;
+  position: relative;
+  /*padding-top: 200px;*/
+}
+
+.section-footer:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    /*background: url(images/wave-4.png);*/
+    background-size: cover;
+}

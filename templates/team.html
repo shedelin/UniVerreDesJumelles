@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="container">
+    <div class="row">
+      <h1 class="col-md-12">Présentation de la team</h1>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="{{url_for('static', filename='images/119.png')}}" class="d-block w-100" alt="...">
+          </div>
+          <div class="col-md-6">
+            <h1>Alexy</h1>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut orci nec sem iaculis convallis. In hac habitasse platea dictumst. Sed at urna dignissim, tristique ligula quis, mollis nulla.</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">    
+      </div>
+      <div class="col-md">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="{{url_for('static', filename='images/119.png')}}" class="d-block w-100" alt="...">
+          </div>
+          <div class="col-md-6">
+            <h1>Julie</h1>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut orci nec sem iaculis convallis. In hac habitasse platea dictumst. Sed at urna dignissim, tristique ligula quis, mollis nulla.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
